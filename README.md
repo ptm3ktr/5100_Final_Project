@@ -3,17 +3,13 @@ This project implements a simulation of a dice game using Monte Carlo methods. I
 # Synopsis
 Die class
 The Die class represents a die with a specified set of faces. You can modify the weights of the faces and roll the die multiple times.
+
 '''
 import numpy as np
 from montecarlo import Die
 
-# Define faces for the die
 faces = np.array([1, 2, 3, 4, 5, 6])
-
-# Create a Die object
 die = Die(faces)
-
-# Roll the die 5 times
 rolls = die.roll(5)
 print(rolls)
 '''

@@ -14,3 +14,15 @@ die = Die(faces)
 rolls = die.roll(5)
 print(rolls)
 '''
+
+Game class
+The Game class simulates a game involving multiple dice. It supports rolling all dice a specified number of times and displaying the results in either wide or narrow format.
+
+'''
+from montecarlo import Game, Die
+die1 = Die(np.array([1, 2, 3, 4, 5, 6]))
+die2 = Die(np.array([1, 2, 3, 4, 5, 6]))
+game = Game([die1, die2])
+game.play(5)
+print(game.show(form='wide'))
+'''

@@ -53,7 +53,7 @@ analyzer = Analyzer(game)
 print("Jackpot count:", analyzer.jackpot())
 print(analyzer.face_counts_per_roll())
 
-#API
+# API
 
 #Die class
 
